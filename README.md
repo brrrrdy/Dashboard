@@ -39,3 +39,96 @@ https://colorhunt.co/palette/78b3cec9e6f0fbf8eff96e2a
 #C9E6F0
 #FBF8EF
 #F96E2A
+
+<!-- STRUCTURE (DESKTOP) -->
+
+<!--
+
+---------- CONTAINER ----------
+
+  > TOP NAV ---- Behavior: regular flow ----
+
+    > search
+      search form
+
+    > welcome
+      welcome message
+      profile picture
+
+    > profile
+      name
+      profile picture
+      icons
+
+    > action buttons
+      new
+      upload
+      share
+
+  > SIDE NAV ---- Behavior: Stay in place on left hand of screen while scrolling ----
+
+    > logo
+      icon
+      title
+
+    > menu links 1
+      home
+      profile
+      messages
+      history
+      tasks
+      communities
+
+    > menu links 2
+      settings
+      support
+      privacy
+
+  > MAIN BODY
+
+    > my projects ---- Behavior: scrollable ----
+      > cards
+        > card type 1
+          title
+          subtitle
+          image
+          description
+          action buttons
+            edit
+            delete
+        > card type 2
+          title
+          subtitle
+          image
+          description
+          action buttons
+            edit
+            delete
+        > card type 3
+          title
+          subtitle
+          image
+          description
+          action buttons
+            edit
+            delete
+
+    > announcements section ---- Behavior: static ----
+      > announcments
+      > announcement card
+          title
+          subtitle
+          description
+
+      > trending
+      > trending card
+          title
+          subtitle
+          description
+
+  > FOOTER
+
+
+  -->
+
+<!-- RESPONSIVENESS -->
