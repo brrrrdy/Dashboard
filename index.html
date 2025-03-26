@@ -15,31 +15,47 @@
   <body>
     <div class="container">
       <div class="topnav">
+        <!-- LEFT NAV BOX -->
+
         <div class="welcome">
           <div class="search">
             <form action="">
               <input type="text" placeholder="Search..." />
-              <button type="submit">Search</button>
             </form>
           </div>
-          <div class="welcome">
-            <p>Hi there,</p>
-            <p>Tom Alvarez (@tomalvarez)</p>
-            <img
-              src="profile.jpg"
-              alt="profile-welcome"
-              class="profile-welcome"
-            />
+          <div class="user-info">
+            <div class="userbox">
+              <img
+                src="images/profile-picture.jpg"
+                alt="user-welcome"
+                class="user-welcome"
+              />
+              <div class="usertext">
+                <p class="greeting">Hi there,</p>
+                <p class="username">Tom Alvarez (@tomalvarez)</p>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="profile">
-          <div class="profile">
-            <p>User</p>
-            <img src="profile.jpg" alt="profile-nav" class="profile-nav" />
+
+        <!-- RIGHT NAV BOX -->
+
+        <div class="profile-box">
+          <div class="userbar">
             <div class="icons">
-              <img src="edit.png" alt="edit" />
-              <img src="settings.png" alt="settings" />
-              <img src="logout.png" alt="logout" />
+              <img src="images/icons/edit-2.svg" alt="edit" />
+              <img src="images/icons/settings.svg" alt="settings" />
+              <img src="images/icons/log-out.svg" alt="logout" />
+            </div>
+            <div class="picture1">
+              <img
+                src="images/profile-picture.jpg"
+                alt="profile-nav"
+                class="sm-prof"
+              />
+            </div>
+            <div class="right-user">
+              <p class="r-username">Tom Alvarez</p>
             </div>
           </div>
           <div class="action-buttons">
@@ -49,6 +65,8 @@
           </div>
         </div>
       </div>
+
+      <!-- SIDENAV -->
 
       <div class="sidenav">
         <div class="logo">
@@ -69,6 +87,9 @@
           <a href="#">Privacy</a>
         </div>
       </div>
+
+      <!-- MAIN BODY -->
+
       <div class="main-body">
         <div class="my-projects">
           <div class="cards">
@@ -77,7 +98,7 @@
               <h3>Subtitle</h3>
               <img src="image.jpg" alt="image" class="image" />
               <p>Description</p>
-              <div class="action-buttons">
+              <div class="body-action-buttons">
                 <button>Edit</button>
                 <button>Delete</button>
               </div>
@@ -87,7 +108,7 @@
               <h3>Subtitle</h3>
               <img src="image.jpg" alt="image" class="image" />
               <p>Description</p>
-              <div class="action-buttons">
+              <div class="body-action-buttons">
                 <button>Edit</button>
                 <button>Delete</button>
               </div>
@@ -97,13 +118,14 @@
               <h3>Subtitle</h3>
               <img src="image.jpg" alt="image" class="image" />
               <p>Description</p>
-              <div class="action-buttons">
+              <div class="body-action-buttons">
                 <button>Edit</button>
                 <button>Delete</button>
               </div>
             </div>
           </div>
         </div>
+
         <div class="announcements-section">
           <div class="announcements">
             <h2>Announcements</h2>
@@ -113,6 +135,7 @@
               <p>Description</p>
             </div>
           </div>
+
           <div class="trending">
             <h2>Trending</h2>
             <div class="trending-card">
@@ -123,6 +146,9 @@
           </div>
         </div>
       </div>
+
+      <!-- FOOTER -->
+
       <div class="footer"></div>
     </div>
   </body>

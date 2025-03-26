@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   font-family: "Open-Sans", sans-serif;
 }
 
@@ -11,7 +11,7 @@
   grid-template-columns: 250px 1fr;
   grid-template-rows: auto 1fr auto;
   height: 100vh;
-  gap: 10px;
+  /* gap: 10px; */
 }
 
 /* Sidenav */
@@ -26,8 +26,10 @@
 
 .logo {
   display: flex;
-  align-items: left;
-  gap: 10px;
+  align-items: center;
+  gap: 15px;
+  max-width: 100%;
+  flex-wrap: nowrap;
 }
 
 .logo img {
@@ -38,7 +40,9 @@
 
 .logo h1 {
   font-size: 1.5rem;
-  flex-wrap: wrap;
+  white-space: nowrap;
+  overflow: hidden;
+  flex-grow: 1;
 }
 
 .menu-links {
@@ -47,6 +51,7 @@
   gap: 15px;
   width: 100%;
   text-align: left;
+  padding-top: 50px;
 }
 
 .setting-links {
@@ -55,7 +60,7 @@
   gap: 10px;
   width: 100%;
   text-align: left;
-  margin-top: 30px;
+  padding-top: 100px;
 }
 
 .sidenav a {
@@ -76,6 +81,123 @@
   background-color: #ecf0f1;
 }
 
+/* left nav box */
+
+.welcome,
+.profile-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 50%;
+}
+
+.welcome {
+  justify-items: flex-start;
+}
+
+.search {
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 20px;
+}
+
+.search input {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.user-info {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.greeting {
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.userbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.username {
+  font-size: 2rem;
+  padding: 10px;
+}
+
+.user-welcome {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+/* RIGHT NAV */
+
+.profile-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+  padding: 20px;
+}
+
+.userbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 40px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.icons {
+  display: flex;
+  gap: 15px;
+}
+
+.icons img {
+  width: 30px;
+  height: auto;
+  max-width: 100%;
+}
+
+.right-user {
+  display: flex;
+}
+
+.sm-prof {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.action-buttons button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
 /* Main Body Content */
 
 .main-body {
@@ -93,7 +215,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 15px;
-  background-color: #f4f4f4;
+  background-color: #ffffff;
   padding: 15px;
 }
 
