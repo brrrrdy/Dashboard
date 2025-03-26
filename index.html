@@ -14,9 +14,45 @@
   </head>
   <body>
     <div class="container">
+      <div class="topnav">
+        <div class="welcome">
+          <div class="search">
+            <form action="">
+              <input type="text" placeholder="Search..." />
+              <button type="submit">Search</button>
+            </form>
+          </div>
+          <div class="welcome">
+            <p>Hi there,</p>
+            <p>Tom Alvarez (@tomalvarez)</p>
+            <img
+              src="profile.jpg"
+              alt="profile-welcome"
+              class="profile-welcome"
+            />
+          </div>
+        </div>
+        <div class="profile">
+          <div class="profile">
+            <p>User</p>
+            <img src="profile.jpg" alt="profile-nav" class="profile-nav" />
+            <div class="icons">
+              <img src="edit.png" alt="edit" />
+              <img src="settings.png" alt="settings" />
+              <img src="logout.png" alt="logout" />
+            </div>
+          </div>
+          <div class="action-buttons">
+            <button>New</button>
+            <button>Upload</button>
+            <button>Share</button>
+          </div>
+        </div>
+      </div>
+
       <div class="sidenav">
         <div class="logo">
-          <img src="logo.png" alt="logo" class="logo" />
+          <img src="images/icons/activity.svg" alt="logo" class="logo" />
           <h1>Dashboard</h1>
         </div>
         <div class="menu-links">
@@ -33,75 +69,61 @@
           <a href="#">Privacy</a>
         </div>
       </div>
-      <div class="main-content">
-        <div class="topnav">
-          <div class="topnav-left">
-            <div class="search">
-              <form action="">
-                <input type="text" placeholder="Search..." />
-                <button type="submit">Search</button>
-              </form>
+      <div class="main-body">
+        <div class="my-projects">
+          <div class="cards">
+            <div class="card-type-1">
+              <h2>Title</h2>
+              <h3>Subtitle</h3>
+              <img src="image.jpg" alt="image" class="image" />
+              <p>Description</p>
+              <div class="action-buttons">
+                <button>Edit</button>
+                <button>Delete</button>
+              </div>
             </div>
-            <div class="welcome">
-              <p>Hi there,</p>
-              <p>User (@user)</p>
-              <img
-                src="profile.jpg"
-                alt="profile-welcome"
-                class="profile-welcome"
-              />
+            <div class="card-type-2">
+              <h2>Title</h2>
+              <h3>Subtitle</h3>
+              <img src="image.jpg" alt="image" class="image" />
+              <p>Description</p>
+              <div class="action-buttons">
+                <button>Edit</button>
+                <button>Delete</button>
+              </div>
             </div>
-          </div>
-          <div class="profile">
-            <p>User</p>
-            <img src="profile.jpg" alt="profile-nav" class="profile-nav" />
-            <div class="icons">
-              <img src="edit.png" alt="edit" />
-              <img src="settings.png" alt="settings" />
-              <img src="logout.png" alt="logout" />
+            <div class="card-type-3">
+              <h2>Title</h2>
+              <h3>Subtitle</h3>
+              <img src="image.jpg" alt="image" class="image" />
+              <p>Description</p>
+              <div class="action-buttons">
+                <button>Edit</button>
+                <button>Delete</button>
+              </div>
             </div>
-          </div>
-          <div class="action-buttons">
-            <button>New</button>
-            <button>Upload</button>
-            <button>Share</button>
           </div>
         </div>
-        <div class="main-body">
-          <div class="my-projects">
-            <div class="cards">
-              <div class="card">
-                <h2>Title</h2>
-                <h3>Subtitle</h3>
-                <img src="image.jpg" alt="image" class="image" />
-                <p>Description</p>
-                <div class="action-buttons">
-                  <button>Edit</button>
-                  <button>Delete</button>
-                </div>
-              </div>
+        <div class="announcements-section">
+          <div class="announcements">
+            <h2>Announcements</h2>
+            <div class="announcement-card">
+              <h3>Title</h3>
+              <h4>Subtitle</h4>
+              <p>Description</p>
             </div>
           </div>
-          <div class="announcements-section">
-            <div class="announcements">
-              <h2>Announcements</h2>
-              <div class="announcement-card">
-                <h3>Title</h3>
-                <h4>Subtitle</h4>
-                <p>Description</p>
-              </div>
-            </div>
-            <div class="trending">
-              <h2>Trending</h2>
-              <div class="trending-card">
-                <h3>Title</h3>
-                <h4>Subtitle</h4>
-                <p>Description</p>
-              </div>
+          <div class="trending">
+            <h2>Trending</h2>
+            <div class="trending-card">
+              <h3>Title</h3>
+              <h4>Subtitle</h4>
+              <p>Description</p>
             </div>
           </div>
         </div>
       </div>
+      <div class="footer"></div>
     </div>
   </body>
 </html>
