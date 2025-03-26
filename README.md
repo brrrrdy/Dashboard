@@ -36,7 +36,7 @@ Palette
 https://colorhunt.co/palette/78b3cec9e6f0fbf8eff96e2a
 
 #78B3CE
-#C9E6F0
+#cccccc
 #FBF8EF
 #F96E2A
 

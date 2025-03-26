@@ -1,11 +1,3 @@
 * {
   border: 1px solid red;
 }
-
-.container {
-  display: grid;
-}
-
-.topnav {
-  display: flex;
-}
