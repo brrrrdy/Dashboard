@@ -131,11 +131,11 @@
 
 .username {
   font-size: 2rem;
-  font-weight: 800;
+  font-weight: 400;
 }
 
 .username span {
-  font-weight: 400;
+  font-weight: 100;
 }
 
 .user-welcome {
@@ -180,7 +180,7 @@
 }
 
 .r-username {
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .sm-prof {
