@@ -222,10 +222,10 @@
 
 .my-projects {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
   gap: 15px;
-  background-color: #ffffff;
-  padding: 15px;
+  padding: 10px;
 }
 
 /* Main Body Icons */
@@ -237,6 +237,23 @@
 }
 
 /* Cards */
+
+.my-projects .cards {
+  display: contents;
+}
+
+.card-type-1,
+.card-type-2,
+.card-type-3,
+.card-type-4,
+.card-type-5,
+.card-type-6 {
+  display: grid;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
 /* Announcements & Trending */
 
