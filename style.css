@@ -228,6 +228,16 @@
   padding: 15px;
 }
 
+/* Main Body Icons */
+
+.card-icon {
+  width: 30px;
+  height: auto;
+  max-width: 100%;
+}
+
+/* Cards */
+
 /* Announcements & Trending */
 
 .announcements-section {
