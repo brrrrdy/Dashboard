@@ -19,8 +19,8 @@
 .sidenav {
   grid-row: 1 / 4;
   grid-column: 1 / 2;
-  background-color: #78b3ce;
-  color: white;
+  background-color: #ffffff;
+  color: rgb(0, 66, 66);
   padding: 20px;
 }
 
@@ -59,7 +59,7 @@
 
 .sidenav a {
   font-size: 1.5rem;
-  color: white;
+  color: rgb(63, 63, 63);
   text-decoration: none;
   padding: 10px;
   display: block;
@@ -260,6 +260,33 @@
   border-color: grey;
   border-radius: 10px;
   gap: 5px;
+  position: relative;
+}
+
+/* Card Border Colours */
+
+.card-type-1 {
+  border-left: 10px solid #e0277d;
+}
+
+.card-type-2 {
+  border-left: 10px solid #1e075e;
+}
+
+.card-type-3 {
+  border-left: 10px solid #1cceb6;
+}
+
+.card-type-4 {
+  border-left: 10px solid #beb02f;
+}
+
+.card-type-5 {
+  border-left: 10px solid #03632e;
+}
+
+.card-type-6 {
+  border-left: 10px solid #a10079;
 }
 
 .card-header {
