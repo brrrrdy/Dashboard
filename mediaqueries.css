@@ -79,3 +79,125 @@
     padding-right: 60px;
   }
 }
+
+@media screen and (max-width: 1250px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto 1fr;
+    height: 100vh;
+  }
+
+  /* SIDENAV */
+
+  .sidenav {
+    grid-row: 1;
+    grid-column: 1;
+    height: 100px;
+    background: #ffffff;
+    color: rgb(0, 66, 66);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .sidenav-item img {
+    display: none;
+  }
+
+  .menu-links,
+  .setting-links {
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    flex-wrap: nowrap;
+  }
+
+  .logo {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .logo img {
+    width: 50px;
+  }
+
+  .logo h1 {
+    font-size: 1.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .sidenav-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .sidenav a {
+    font-size: 1.2rem;
+    color: rgb(63, 63, 63);
+    text-decoration: none;
+  }
+
+  .sidenav a:hover {
+    color: rgb(6, 139, 139);
+  }
+
+  /* TOPNAV */
+
+  .topnav {
+    grid-row: 2;
+    grid-column: 1;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ecf0f1;
+    padding: 20px;
+  }
+
+  /* MAIN BODY */
+
+  .main-body {
+    grid-row: 3;
+    grid-column: 1;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  /* MY PROJECTS */
+
+  .my-projects {
+    grid-column: 1 / -1;
+    width: 100%;
+  }
+
+  /* CARDS */
+
+  .my-projects .cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 8px;
+  }
+
+  .card-header h2 {
+    font-size: 1.3rem;
+  }
+
+  .card-icon {
+    width: 25px;
+  }
+
+  /* ANNOUNCEMENTS */
+  .announcements {
+    grid-column: 1 / -1;
+    width: 100%;
+  }
+}
