@@ -17,30 +17,26 @@ ul li {
   grid-template-columns: 250px 1fr;
   grid-template-rows: auto 1fr auto;
   height: 100vh;
-  /* gap: 10px; */
 }
 
 /* Sidenav */
-
 .sidenav {
-  grid-row: 1 / 4;
-  grid-column: 1 / 2;
-  background-color: #ffffff;
+  grid-area: 1 / 1 / 4 / 2;
+  background: #ffffff;
   color: rgb(0, 66, 66);
   padding: 20px;
 }
 
+/* Logo */
 .logo {
   display: grid;
   grid-template-columns: auto 1fr;
   align-items: center;
   gap: 15px;
-  max-width: 100%;
 }
 
 .logo img {
   width: 50px;
-  height: auto;
 }
 
 .logo h1 {
@@ -49,13 +45,11 @@ ul li {
   overflow: hidden;
 }
 
+/* Menu & Settings Links */
 .menu-links,
 .setting-links {
   display: grid;
-  grid-template-columns: 1fr;
   gap: 15px;
-  width: 100%;
-  text-align: left;
   padding-top: 50px;
 }
 
@@ -63,12 +57,28 @@ ul li {
   padding-top: 100px;
 }
 
+/* Sidenav Items */
+.sidenav-item {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.sidenav-item img {
+  width: 24px;
+}
+
+/* Sidenav Links */
 .sidenav a {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: rgb(63, 63, 63);
   text-decoration: none;
-  padding: 10px;
-  display: block;
+}
+
+.sidenav a:hover {
+  color: rgb(6, 139, 139);
 }
 
 /* Topnav */
@@ -80,7 +90,6 @@ ul li {
   grid-template-columns: 1fr 1fr;
   align-items: center;
   background-color: #ecf0f1;
-  /* padding: 10px; */
 }
 
 .welcome,
