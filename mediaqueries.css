@@ -170,6 +170,7 @@
     grid-column: 1;
     display: grid;
     grid-template-columns: 1fr;
+    width: 100%;
   }
 
   /* MY PROJECTS */
@@ -201,3 +202,13 @@
     width: 100%;
   }
 }
+
+/* failed test on iphone 16 pro 2622 × 1206 
+
+notes:
+
+have to scroll horizontally to see content - does not minimize to fit screen
+
+settings and support disappears off right of viewport
+
+*/
