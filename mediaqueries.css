@@ -295,6 +295,8 @@
   }
 
   .footer p {
+    width: 80%;
+    text-align: center;
     font-size: 0.6rem;
   }
 }
@@ -328,9 +330,5 @@
 
   .action-buttons button {
     width: 100%;
-  }
-
-  .footer p {
-    font-size: 0.5rem;
   }
 }
