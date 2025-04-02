@@ -1,0 +1,81 @@
+/* 1920X1080p */
+
+@media (max-width: 1920px) {
+  body {
+    font-size: 14px;
+  }
+
+  /* SIDENAV */
+
+  .logo img {
+    width: 40px;
+  }
+
+  .sidenav a {
+    font-size: 1rem;
+  }
+
+  .sidenav-item img {
+    width: 20px;
+  }
+
+  /* TOPNAV */
+
+  /* TOPNAV LEFT */
+
+  .greeting {
+    font-size: 0.9rem;
+  }
+
+  .username {
+    font-size: 1.8rem;
+  }
+
+  .search input {
+    height: 45px;
+    font-size: 0.9rem;
+  }
+
+  /* TOPNAV RIGHT */
+
+  .icons img {
+    width: 25px;
+  }
+
+  .action-buttons button {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+
+  /* MAIN BODY */
+  .my-projects .projects-header {
+    font-size: 1rem;
+  }
+
+  .announcements-section .announcements-header {
+    font-size: 1rem;
+  }
+
+  /* CARDS */
+
+  .my-projects .cards {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 8px;
+  }
+
+  .card-header h2 {
+    font-size: 1.3rem;
+  }
+
+  .card-icon {
+    width: 25px;
+  }
+
+  /* ANNOUNCEMENTS */
+
+  .announcements-content {
+    font-size: 0.85rem;
+    padding-right: 60px;
+  }
+}
