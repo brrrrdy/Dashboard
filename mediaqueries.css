@@ -137,7 +137,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-right: 20px;
+    margin-right: 5px;
     flex-shrink: 0;
   }
 
@@ -187,7 +187,7 @@
     padding: 10px 15px;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 5px;
   }
 
   .welcome,
@@ -293,9 +293,12 @@
     width: 100%;
     margin-top: 20px;
   }
+
+  .footer p {
+    font-size: 0.6rem;
+  }
 }
 
-/* For smaller mobile devices */
 @media screen and (max-width: 480px) {
   .sidenav {
     padding: 10px;
@@ -325,5 +328,9 @@
 
   .action-buttons button {
     width: 100%;
+  }
+
+  .footer p {
+    font-size: 0.5rem;
   }
 }
