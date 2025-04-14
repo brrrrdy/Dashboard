@@ -343,6 +343,44 @@ ul li {
   margin-top: 5px;
 }
 
+.github-languages {
+  margin-top: 10px;
+}
+
+.language-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.language-name {
+  width: 80px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.language-bar-container {
+  flex-grow: 1;
+  height: 20px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  margin: 0 10px;
+  overflow: hidden;
+}
+
+.language-bar {
+  height: 100%;
+  background-color: #3498db;
+  border-radius: 5px;
+}
+
+.language-percent {
+  width: 40px;
+  text-align: right;
+  font-size: 0.8rem;
+  color: #666;
+}
+
 /* Announcements & Trending */
 
 .announcements-section {
